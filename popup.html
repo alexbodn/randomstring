@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random String Generator</title>
+    <script src="randomstring.js"></script>
+    <script src="popup.js"></script>
+    <style>
+      img {
+        border-style: solid;
+        border-width: thin;
+      }
+    </style>
+  </head>
+  <body>
+    <!--h1>Random String Generator</h1-->
+    <div>
+    <img id="clip-img" src="icon-big21.gif" />
+    <select id="stringType">
+      <option value="">Please choose a definition to generate</option>
+    </select>
+    <button id="createString">Generate!</button>
+    <span id="resultCopy" style="display: none" title="copy to clipboard">📋</span>
+    </div>
+    <div id="resultValue"></div>
+  </body>
+</html>
